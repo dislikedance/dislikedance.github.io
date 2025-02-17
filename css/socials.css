@@ -1,0 +1,86 @@
+body{
+    background-color: #979494;
+    padding: 25px;
+}
+#kklogo{
+    max-height: 150px;
+    display: flex;
+    justify-content:flex-start
+}
+#fullname{
+    max-width: 375px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    padding: 20px;
+    background-color: black;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+nav a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #18B8FF;
+}
+
+#socials{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:600px) {
+    #kklogo{
+        display: none;
+    }
+}
+
+@media screen and (min-width:601px)and (max-width:1024px){
+    
+}
+
+@media screen and (min-width:1025px) {
+    
+}
